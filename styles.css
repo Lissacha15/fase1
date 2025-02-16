@@ -1,0 +1,63 @@
+/* Asegura que toda la página ocupe el 100% del alto de la ventana */
+body.index {
+    background-image: url("fondo.jpg"); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Ocupa toda la pantalla */
+    overflow: hidden; /* Evita el scroll */
+    text-align: center;
+    margin: 0;
+    font-family: 'orbitron' ; /* Cambia aquí el tipo de letra */ 
+    font-weight: 500; /* Hace el texto más grueso */
+}
+
+/* Estiliza el encabezado para que no ocupe mucho espacio */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* Estiliza los botones para que queden centrados */
+.contenedor {
+    display: flex;
+    flex-direction: row; /* Organiza los botones en columna */
+    align-items: center;
+    gap: 15px; /* Espacio entre botones */
+    margin-top: 20px;
+}
+
+/* Estilos de los botones */
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'orbitron';
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Estilos del párrafo */
+.parrafo-final {
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde abajo */
+    width: 100%; /* Para que ocupe todo el ancho */
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
